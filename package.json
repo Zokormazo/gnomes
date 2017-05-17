@@ -1,0 +1,21 @@
+{
+  "name": "gnomesui",
+  "version": "0.1.0",
+  "description": "Gnomes UI",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "start": "http-server -a localhost -p 8000 -c-1 .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Julen Landa Alustiza <julen@zokormazo.info>",
+  "license": "MIT",
+  "devDependencies": {
+    "@uirouter/angularjs": "^1.0.3",
+    "angular": "^1.6.4",
+    "angular-ui-bootstrap": "^2.5.0",
+    "bootstrap": "^3.3.7",
+    "eslint": "^3.19.0",
+    "http-server": "^0.10.0"
+  }
+}
